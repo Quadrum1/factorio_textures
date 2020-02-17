@@ -7,8 +7,18 @@ Repeats multiple pictures contained in folders onto a new image
 This program is useful when editing certain game resources requiring multiple resolutions in one picture!
 
 
-# Folders are required to contain the image at resolution of the folder name
-# Images are required to have the same name as the original file
+Folders are required to contain the image at resolution of the folder name
+Images are required to have the same name as the original file
+
+
+Folder Hierachy:
+
+combine_texturefiles.py
+original_image.png
+Folder 64x64, containing a 64x64 image called original_image.png
+Folder 32x32, containing a 32x32 image called original_image.png
+Folder 16x16, containing a 16x16 image called original_image.png
+Folder 8x8, containing a 8x8 image called original_image.png
 """
 
 original = fileopenbox().split("\\")[-1]

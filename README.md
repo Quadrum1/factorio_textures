@@ -15,3 +15,8 @@
 3. Open *Properties*, goto *Local files*
 4. Press *Check files for errors*
 5. Steam will check for missing files and request new, original ones
+
+
+## Troubles or want to help?
+
+Push a pull request/issue or join us on discord https://www.getcomfy.eu/discord *#arty-corner*!
